@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="张机智的个人介绍网页，香港岭南大学学生。" />
+    <title>张机智 | 个人介绍</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+    <main class="page-shell">
+      <nav class="topbar" aria-label="主导航">
+        <a class="brand" href="#top" aria-label="返回顶部">
+          <span class="brand-mark">ZJ</span>
+          <span>张机智</span>
+        </a>
+        <div class="nav-actions">
+          <a class="nav-link" href="#resume">简历 <span aria-hidden="true">↓</span></a>
+          <button class="theme-toggle" type="button" aria-label="切换显示主题" title="切换显示主题"><span aria-hidden="true">◐</span></button>
+          <a class="nav-link" href="mailto:xinyuezhang@ln.hk">联系我 <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+
+      <section class="hero" id="top">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> Hong Kong · 现在开放交流</p>
+          <h1>你好，我是<br /><em>张机智。</em></h1>
+          <p class="intro">一名在香港岭南大学学习、观察和不断尝试新事物的学生。喜欢把好奇心变成行动，也享受和不同的人分享想法。</p>
+          <div class="actions">
+            <a class="button button-primary" href="mailto:xinyuezhang@ln.hk">发一封邮件 <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="#about">了解更多 <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="香港校园建筑照片">
+          <div class="image-frame">
+            <img src="https://images.unsplash.com/photo-1536599018102-9f803c140fc1?auto=format&fit=crop&w=1200&q=85" alt="香港城市建筑与天空" />
+            <div class="image-caption"><span>01</span><span>在城市里保持好奇</span></div>
+          </div>
+          <div class="floating-note">岭南大学<br /><strong>学生</strong></div>
+        </div>
+      </section>
+
+      <section class="info-grid" id="about">
+        <div class="section-label">关于我 <span>02</span></div>
+        <div class="about-copy">
+          <h2>保持开放，<br /><span>持续生长。</span></h2>
+          <p>我相信教育不只发生在课堂里。对人、对城市、对正在发生的事情保持敏锐，让每一次学习都能连接到真实世界。</p>
+          <div class="facts" aria-label="个人信息">
+            <div class="fact"><span>姓名</span><strong>张机智</strong></div>
+            <div class="fact"><span>学校</span><strong>香港岭南大学</strong></div>
+            <button class="fact fact-copy" type="button" data-copy-email="xinyuezhang@ln.hk" aria-label="复制邮箱地址"><span>邮箱</span><strong>xinyuezhang@ln.hk</strong><small>点击复制</small></button>
+          </div>
+        </div>
+      </section>
+
+      <section class="resume-section" id="resume">
+        <div class="section-label">工作意向 <span>03</span></div>
+        <div class="intent-grid">
+          <div>
+            <h2>把热爱，<br /><span>变成工作。</span></h2>
+            <p class="section-lead">热爱美术与音乐，曾担任大学生艺术团弹拨乐首席。希望进入策展、艺术拍卖、音乐等与审美和文化相关的行业，在实践中找到并融入自己真正热爱的工作。</p>
+          </div>
+          <div class="intent-list">
+            <div class="intent-item"><span>职业方向</span><strong>策展 · 艺术拍卖 · 音乐</strong></div>
+            <div class="intent-item"><span>期望地点</span><strong>中国内地 · 北京 / 大连等北方城市</strong></div>
+            <div class="intent-item"><span>这一年的目标</span><strong>完成学习，进入热爱的行业</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <div class="resume-filter" role="tablist" aria-label="简历内容筛选">
+        <span class="filter-label">探索经历</span>
+        <button class="filter-button is-active" type="button" role="tab" aria-selected="true" data-filter="all">全部</button>
+        <button class="filter-button" type="button" role="tab" aria-selected="false" data-filter="education">教育</button>
+        <button class="filter-button" type="button" role="tab" aria-selected="false" data-filter="experience">工作</button>
+        <button class="filter-button" type="button" role="tab" aria-selected="false" data-filter="campus">活动</button>
+      </div>
+
+      <section class="resume-section timeline-section filter-section" id="education" data-category="education">
+        <div class="section-label">教育背景 <span>04</span></div>
+        <div class="timeline">
+          <article class="timeline-item current">
+            <div class="timeline-date">2026.09 — 2027.08<br /><small>预计</small></div>
+            <div class="timeline-content">
+              <p class="kicker">香港 · 中国</p>
+              <h3>香港岭南大学</h3>
+              <h4>艺术科技与商业理学 · 硕士</h4>
+              <p>核心课程：艺科融合、中西方艺术史、艺术产业会计与财务、设计思维、艺术金融与科技、互动艺术与科技。</p>
+              <p>在前置课程 ATB003 中学习使用 Figma、Workbuddy 制作 App 的基础技术，设计并制作运动助手 App 及相关广告片。</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2018.09 — 2020.06</div>
+            <div class="timeline-content">
+              <p class="kicker">吉林 · 中国</p>
+              <h3>吉林大学</h3>
+              <h4>国际商务 · 硕士</h4>
+              <p><strong>GPA 87.42 / 100</strong>　核心课程：国际商务谈判、国际市场营销、国际商务实务。</p>
+              <p>荣誉：经济学院优秀学生干部。</p>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2014.09 — 2018.07</div>
+            <div class="timeline-content">
+              <p class="kicker">吉林 · 中国</p>
+              <h3>吉林大学</h3>
+              <h4>国际经济与贸易 · 经济学学士</h4>
+              <p><strong>GPA 76.51 / 100</strong>　核心课程：影视心理学、当代美国小说赏析、国际贸易实务。</p>
+              <p>荣誉：吉林大学三等奖学金；大学生创新创业训练计划优秀奖。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="resume-section timeline-section filter-section" id="experience" data-category="experience">
+        <div class="section-label">工作经历 <span>05</span></div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-date">2023.10 — 2025.12</div>
+            <div class="timeline-content">
+              <p class="kicker">辽宁 · 中国</p>
+              <h3>鹏盛会计师事务所大连分所</h3>
+              <h4>行政助理</h4>
+              <ul>
+                <li>负责办公公共区域的美学规划，牵头“办公空间优化”项目，3 个月内将员工对办公环境的满意度从 48% 提升至 72%。</li>
+                <li>负责企业文化日历的设计与执行，牵头 12+ 场企业文化活动，含 2 场与政府合作、线上观看量 10 万+ 的迷你马拉松；员工长期留存率每年提升 30%。</li>
+                <li>系统整理并归档 20 余年（追溯至 2001 年）的历史财务记录，建立实体档案管理体系，归档准确率达 100%。</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2023.06 — 2023.10</div>
+            <div class="timeline-content">
+              <p class="kicker">辽宁 · 中国</p>
+              <h3>大连金石滩中华传统文化博物馆</h3>
+              <h4>项目经理</h4>
+              <ul>
+                <li>负责 6 个展厅 200 余件展品的日常管理与保护，确保文物安全与展陈完整性。</li>
+                <li>牵头策划并执行学校研学与调研项目，协调团队资源、规划参观路线；与中小学及高校合作执导 5 场大型活动（600+ 人次），实现合作伙伴满意度 100%。</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-date">2020.11 — 2023.05</div>
+            <div class="timeline-content">
+              <p class="kicker">吉林 · 中国</p>
+              <h3>长春塔斯经贸有限公司</h3>
+              <h4>项目经理（广告部）</h4>
+              <ul>
+                <li>主导宣传片的全流程制作，统筹摄像、文案等跨职能团队，确保品牌信息传达的一致性与完整性。</li>
+                <li>制作塔斯剑玉（Tasse-Kendama）第四代旗舰宣传片，成功登上淘宝首页焦点位，带动该商品成为店铺年度销量第一名。</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="resume-section projects-section filter-section" id="campus" data-category="campus">
+        <div class="section-label">校内活动 <span>06</span></div>
+        <div class="project-feature">
+          <div class="project-meta"><span>2019.12</span><span>吉林 · 中国</span></div>
+          <div class="project-content">
+            <p class="kicker">吉林大学三院联合圣诞晚会</p>
+            <h2>制作总监</h2>
+            <ul>
+              <li>执导大型校园晚会，统筹 150+ 表演者与 600+ 观众的整场制作，涵盖节目编排、平面设计与社交媒体宣传。</li>
+              <li>统筹 1 万元活动预算，与多家供应商（奖品、服装、场地）谈判，确保成本效益。</li>
+              <li>实现线上观看量 8 万+，活动品质与执行获得广泛好评。</li>
+            </ul>
+          </div>
+          <div class="project-stat"><strong>8万+</strong><span>线上观看量</span></div>
+        </div>
+      </section>
+
+      <section class="resume-section skills-section" id="skills">
+        <div class="section-label">技能与其他 <span>07</span></div>
+        <div class="skills-grid">
+          <div class="skill-group"><span class="skill-title">语言</span><p>普通话 <em>母语</em><br />英语 <em>流利</em><br />韩语 <em>基础</em><br />西班牙语 <em>基础</em></p></div>
+          <div class="skill-group"><span class="skill-title">技能</span><p>Figma <em>基础</em><br />剪映 <em>基础</em><br />Affinity <em>基础</em></p></div>
+          <div class="skill-group"><span class="skill-title">证书</span><p>全国计算机等级考试（二级）<br />中阮：十级（最高级）</p></div>
+          <div class="skill-group"><span class="skill-title">爱好</span><p>唱歌 · 街舞 · 绘画<br />羽毛球 · 健身 · 网球</p></div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span>© 2026 张机智</span>
+        <span>Made with curiosity · Hong Kong</span>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
